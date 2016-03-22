@@ -1,0 +1,43 @@
+/* Table of Contents
+   - - - - - - - - -
+	1. Global
+	2. Standard Forms
+	3. Header
+	4. Home Page
+	5. Inner Pages
+	6. Footer
+	7. Media Queries
+	- - - - - - - - -
+*/
+ 
+
+
+/* ============
+   1 = Global 
+   ============ */
+/* Domain Names Search Box ------------------------ */
+.domainsearch{ margin-top:45px; }
+.domainsearch p { font-size:14px; color:#333; padding:5px 0; margin:0;}
+.domainsearch form {padding: 10px;}
+.domainsearch input[type="text"] { box-shadow: 3px 3px 1px #808080; font-size:18px; padding: 15px; height:65px; width:100%; -webkit-border-radius: 5px;-webkit-border-top-right-radius: 0;-webkit-border-bottom-right-radius: 0;-moz-border-radius: 5px;-moz-border-radius-topright: 0;-moz-border-radius-bottomright: 0;border-radius: 5px;border-top-right-radius: 0;border-bottom-right-radius: 0; }
+.domainsearch select { box-shadow: 3px 3px 1px #808080; font-size:18px; padding: 15px;height:65px; background:#fff; width:100%; border-radius:0; border-left:1px solid #ccc;}
+.domainsearch input[type="submit"] {box-shadow: 3px 3px 1px #808080; width:100%; float: left; font-size:16px; background: #65454c; height:65px; color:#fff; font-weight:900; padding:6px; text-transform: uppercase;  width: 100%; border-radius: 4px; border:0; cursor: pointer;  -ms-box-sizing: border-box;     -khtml-box-sizing: border-box;     -webkit-box-sizing: border-box;     -moz-box-sizing: border-box;    box-sizing: border-box;    box-sizing: border-box; -webkit-border-radius: 0;-webkit-border-top-right-radius: 5px;-webkit-border-bottom-right-radius: 5px;-moz-border-radius: 0;-moz-border-radius-topright: 5px;-moz-border-radius-bottomright: 5px;border-radius: 0;border-top-right-radius: 5px;border-bottom-right-radius: 5px;}
+.domainsearch input[type="submit"]:hover { background: #b86662; }
+.domainsearch select option span {color:#c00; margin-right: 100px;}
+#atag { margin-left: 30px;}
+
+.domain-prices {padding:50px 0; overflow:hidden;}
+.domain-prices h2 {text-align: center; font-weight: 900}
+.domain-prices p {text-align: center;}
+.domainfeatures-list {padding:50px 0 70px; overflow:hidden; background:#F9F9F9;}
+ul.domainfeatures {margin:0;}
+ul.domainfeatures li {background:#F0F0F0; padding:20px; border:5px solid #F9F9F9;}
+ul.domainfeatures p {font-size:15px; font-weight:400; text-align: left}
+ul.domainfeatures h3 {font-size:18px; padding:11px 0; margin: 0 0 5px; font-weight:400; color:#000;}
+ul.domainfeatures li i {color:#fff; font-size:54px;}
+ul.domainfeatures li .circle {border-radius: 50%; overflow:hidden; width: 110px;	height: 110px; background:#bf6b65; padding-top:27px; margin:0 auto; position:relative; z-index:99999; text-align: center; }
+.domain-prices .title-alt { background: #65454c;  padding: 12px 0;    text-align: center; letter-spacing: .07em;   color: #fff;    font-weight: 800;    font-size: 17px; }
+.domain-prices .title-features { background: #b86662;  padding: 12px 0;    text-align: center; letter-spacing: .07em;   color: #fff;    font-weight: 800;    font-size: 17px; }
+.pricing-table.domains .description {border-radius: 0;}
+.pricing-table.domains.tld .bullet-item {  background-color: #A1A0A5; text-align: left;color: #fff; font-size:14px; border-bottom: solid 1px #959498; }
+.pricing-table.domains .bullet-item {    background-color: #EDEDED;    padding: 0.9375em;    text-align: center;    color: #333;    font-size: 14px;    font-weight: normal;    border-bottom: solid 1px #dadada; border-right: solid 1px #dadada; }
